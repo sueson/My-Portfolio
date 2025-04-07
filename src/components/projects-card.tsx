@@ -54,15 +54,17 @@ export function ProjectsCard({
             <IoLogoGithub className="w-5 h-5" />
             Code
           </a>
-          <a
-            href={liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors"
+          {liveUrl && (
+            <a
+                href={liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors"
           >
-            <ExternalLink className="w-5 h-5" />
-            Live Demo
+                <ExternalLink className="w-5 h-5" />
+                    Live Demo
           </a>
+          )}
         </div>
       </div>
     </div>
