@@ -9,30 +9,28 @@ import { ProjectsCard } from '@/components/projects-card';
 export default function Home() {
     const projects = [
         {
-          title: "E-Commerce Platform",
-          description: "A full-stack e-commerce platform with React, Node.js, and MongoDB",
-          image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1600",
-          technologies: ["React", "Node.js", "MongoDB", "Redux"],
-          githubUrl: "#",
-          liveUrl: "#"
+          title: "Slack Clone",
+          description: "A Slack clone built with real-time messaging, authentication, and server management features.",
+          image: "/slack-clone.png",
+          technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Convex", "Auth.js"],
+          githubUrl: "https://github.com/sueson/slack-clone",
+          liveUrl: "https://slack-clone-six-beta.vercel.app/"
         },
         {
-          title: "Task Management App",
-          description: "A collaborative task management application with real-time updates",
-          image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1600",
-          technologies: ["React", "Firebase", "Tailwind CSS"],
-          githubUrl: "#",
-          liveUrl: "#"
+          title: "AI Music Generator",
+          description: "A mobile app that generates songs from user-written stories or lyrics using OpenAI, Suno APIs, and Genius APIs.",
+          image: "/ai-music-generator.png",
+          technologies: ["React Native", "Expo", "OpenAI API", "Suno AI", "NativeWind", "Clerk"],
+          githubUrl: "https://github.com/sueson/AI-song-generator-app",
         },
         {
-          title: "Social Media Dashboard",
-          description: "Analytics dashboard for social media management",
+          title: "Banking System Management",
+          description: "A command-line based banking system developed using Python, supporting functionalities like account creation, deposits, withdrawals, and balance checks.",
           image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1600",
-          technologies: ["TypeScript", "Next.js", "Chart.js"],
-          githubUrl: "#",
-          liveUrl: "#"
+          technologies: ["Python"],
+          githubUrl: "https://github.com/sueson/Banking-System",
         }
-      ];
+    ];
 
 
   return (
