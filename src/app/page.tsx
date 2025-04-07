@@ -1,6 +1,7 @@
 import { Code, Mail,  User, Briefcase, FileCode, Send, Award, Book, Clock, Coffee, Globe, Heart } from 'lucide-react';
 import { IoLogoGithub } from "react-icons/io";
 import { FiLinkedin } from "react-icons/fi";
+import { Section } from '@/components/sections';
 
 
 
@@ -34,13 +35,6 @@ export default function Home() {
         }
       ];
 
-      const stats = [
-        { icon: Coffee, label: "Coffee Consumed", value: "1,234+" },
-        { icon: Clock, label: "Hours Coded", value: "5,000+" },
-        { icon: Heart, label: "Happy Clients", value: "100+" },
-        { icon: Globe, label: "Countries Reached", value: "25+" },
-      ];
-
       const testimonials = [
         {
           name: "Sarah Johnson",
@@ -70,7 +64,7 @@ export default function Home() {
                     <Code className="w-8 h-8" />
                 </div>
                 <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
-                    Full Stack Developer
+                    Sueson | Junior Software Developer
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
                     I build exceptional and scalable web applications with modern technologies
@@ -93,17 +87,47 @@ export default function Home() {
                     </a>
                 </div>
                 <div className="mt-12 flex justify-center gap-6">
-                    <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors transform hover:scale-110">
+                    <a href="https://github.com/sueson" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors transform hover:scale-110">
                         <IoLogoGithub className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors transform hover:scale-110">
+                    <a href="https://www.linkedin.com/in/sueson-i/" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors transform hover:scale-110">
                         <FiLinkedin className="w-6 h-6" />
                     </a>
                 </div>
             </div>
         </section>
 
-        
+        {/* About Section */}
+        <Section id="about" title="About Me">
+            <div className="max-w-4xl mx-auto px-4">
+                <div className="flex flex-col md:flex-row items-center gap-12">
+                    <div className="flex-1">
+                        <h3 className="text-2xl font-semibold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
+                            Who am I?
+                        </h3>
+                        <p className="text-gray-600 dark:text-gray-300 mb-6">
+                            I&apos;m a passionate Junior Full Stack Developer with a Master&apos;s in Computer Science 
+                            and a strong foundation in both frontend and backend technologies. I enjoy crafting seamless 
+                            user experiences while building robust and scalable backend systems. I love turning ideas into 
+                            impactful digital experiences, and I&apos;m currently seeking an opportunity to grow as a developer 
+                            and contribute to innovative teams.   
+                        </p>
+                    </div>
+                    <div className="flex-1">
+                    <div className="grid grid-cols-2 gap-4">
+                        {['React', 'Node.js', 'TypeScript', 'MongoDB', 'AWS', 'Docker'].map((skill) => (
+                        <div
+                            key={skill}
+                            className="p-4 bg-white dark:bg-slate-800 rounded-lg shadow-md text-center transform hover:-translate-y-1 transition-transform hover:shadow-lg"
+                        >
+                            <p className="font-semibold bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">{skill}</p>
+                        </div>
+                        ))}
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </Section>
     </div>
   );
 }
