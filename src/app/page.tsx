@@ -2,6 +2,7 @@ import { Code, Mail,  User, Briefcase, FileCode, Send, Smartphone, Brain, Clock,
 import { IoLogoGithub } from "react-icons/io";
 import { FiLinkedin } from "react-icons/fi";
 import { Section } from '@/components/sections';
+import { ProjectsCard } from '@/components/projects-card';
 
 
 
@@ -141,7 +142,16 @@ export default function Home() {
             </div>
         </Section>
 
-        
+        {/* Projects Section */}
+        <Section id="projects" title="My Projects">
+            <div className="max-w-6xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {projects.map((project) => (
+                <ProjectsCard key={project.title} {...project} />
+                ))}
+            </div>
+            </div>
+        </Section>
     </div>
   );
 }

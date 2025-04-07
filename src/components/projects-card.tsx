@@ -3,7 +3,7 @@ import { ExternalLink } from 'lucide-react';
 import { IoLogoGithub } from "react-icons/io";
 import Image from 'next/image';
 
-interface ProjectCardProps {
+interface ProjectsCardProps {
   title: string;
   description: string;
   image: string;
@@ -12,14 +12,14 @@ interface ProjectCardProps {
   liveUrl: string;
 }
 
-export function ProjectCard({
+export function ProjectsCard({
   title,
   description,
   image,
   technologies,
   githubUrl,
   liveUrl,
-}: ProjectCardProps) {
+}: ProjectsCardProps) {
   return (
     <div className="group relative overflow-hidden rounded-xl bg-white dark:bg-slate-800 shadow-lg transition-all duration-300 hover:-translate-y-2">
       <div className="aspect-video w-full overflow-hidden">
@@ -27,6 +27,8 @@ export function ProjectCard({
           src={image}
           alt={title}
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+          width={1600}
+          height={900}
         />
       </div>
       <div className="p-6">
