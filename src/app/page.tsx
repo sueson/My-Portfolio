@@ -1,4 +1,4 @@
-import { Code, Mail,  User, Briefcase, FileCode, Send, Smartphone, Brain, Clock, Coffee, Globe, Heart } from 'lucide-react';
+import { Code, Mail, Briefcase, Smartphone, Brain, Globe } from 'lucide-react';
 import { IoLogoGithub } from "react-icons/io";
 import { FiLinkedin } from "react-icons/fi";
 import { Section } from '@/components/sections';
