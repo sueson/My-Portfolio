@@ -5,8 +5,6 @@ import { Section } from '@/components/sections';
 
 
 
-
-
 export default function Home() {
     const projects = [
         {
@@ -35,7 +33,7 @@ export default function Home() {
         }
       ];
 
-      
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-colors duration-300">
         {/* Hero Section */}
@@ -142,6 +140,8 @@ export default function Home() {
                 </div>
             </div>
         </Section>
+
+        
     </div>
   );
 }
