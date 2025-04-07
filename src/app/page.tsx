@@ -35,26 +35,7 @@ export default function Home() {
         }
       ];
 
-      const testimonials = [
-        {
-          name: "Sarah Johnson",
-          role: "CEO at TechStart",
-          content: "An exceptional developer who consistently delivers outstanding results.",
-          image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400"
-        },
-        {
-          name: "Michael Chen",
-          role: "Product Manager",
-          content: "Incredible attention to detail and amazing problem-solving skills.",
-          image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400"
-        },
-        {
-          name: "Emily Davis",
-          role: "Tech Lead",
-          content: "A true professional who brings innovation to every project.",
-          image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400"
-        }
-      ];
+      
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-colors duration-300">
         {/* Hero Section */}
