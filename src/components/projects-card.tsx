@@ -9,7 +9,7 @@ interface ProjectsCardProps {
   image: string;
   technologies: string[];
   githubUrl: string;
-  liveUrl: string;
+  liveUrl?: string;
 }
 
 export function ProjectsCard({
