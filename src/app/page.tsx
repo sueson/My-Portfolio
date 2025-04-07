@@ -115,7 +115,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                     <div className="grid grid-cols-2 gap-4">
-                        {['React', 'Node.js', 'TypeScript', 'MongoDB', 'AWS', 'Docker'].map((skill) => (
+                        {['JavaScript', 'TypeScript', 'Python', 'React', 'Next.js', 'Django', 'Node.js', 'MongoDB', 'PostgreSQL', 'Docker'].map((skill) => (
                         <div
                             key={skill}
                             className="p-4 bg-white dark:bg-slate-800 rounded-lg shadow-md text-center transform hover:-translate-y-1 transition-transform hover:shadow-lg"
