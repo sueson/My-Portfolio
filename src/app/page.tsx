@@ -45,7 +45,7 @@ export default function Home() {
                     Sueson | Junior Software Developer
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-                    I build exceptional and scalable web applications with modern technologies
+                    Building scalable web apps with modern technologies. Passionate about learning and creating efficient solutions.
                 </p>
 
                 <div className="flex justify-center gap-4">
@@ -54,14 +54,14 @@ export default function Home() {
                     className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg hover:from-blue-600 hover:to-purple-600 transition-all duration-300 flex items-center gap-2 transform hover:scale-105"
                     >
                         <Mail className="w-5 h-5" />
-                        Contact Me
+                            Contact Me
                     </a>
                     <a
                     href="#projects"
                     className="px-6 py-3 bg-white dark:bg-slate-800 text-gray-800 dark:text-white rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-all duration-300 flex items-center gap-2 transform hover:scale-105 shadow-lg"
                     >
                         <Briefcase className="w-5 h-5" />
-                        View Projects
+                            View Projects
                     </a>
                 </div>
                 <div className="mt-12 flex justify-center gap-6">
