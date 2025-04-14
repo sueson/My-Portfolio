@@ -84,7 +84,7 @@ export default function Home() {
                             Who am I?
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 mb-6">
-                            I&apos;m a passionate Junior Full Stack Developer with a Master&apos;s in Computer Science 
+                            I&apos;m a passionate Junior Software Developer with a Master&apos;s in Computer Science 
                             and a strong foundation in both frontend and backend technologies. I enjoy crafting seamless 
                             user experiences while building robust and scalable backend systems. I love turning ideas into 
                             impactful digital experiences, and I&apos;m currently seeking an opportunity to grow as a developer 
